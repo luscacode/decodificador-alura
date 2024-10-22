@@ -30,6 +30,11 @@
     }
 }
 
+header h2 {
+    color: #0752c2;
+    text-decoration: none;
+}
+
 body {
     background-color: #e5e5e5;
     height: 100vh;
@@ -54,6 +59,7 @@ header a {
     margin-top: 4%;
     opacity: 20%;
     transition: 0.3s;
+    text-decoration: none;
 }
 
 header a:hover {
@@ -80,7 +86,8 @@ main {
 }
 
 .mainContent {
-    box-shadow: rgba(50, 50, 93, 0.07) 0px 50px 100px -20px, rgba(0, 0, 0, 0.227) 0px 30px 60px -30px;
+    box-shadow: rgba(50, 50, 93, 0.07) 0px 50px 100px -20px,
+        rgba(0, 0, 0, 0.227) 0px 30px 60px -30px;
     background-color: white;
     padding: 3rem;
     border-radius: 2em;
